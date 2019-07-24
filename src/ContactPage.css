@@ -1,0 +1,48 @@
+.contactPage {
+  width: 300px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  border: .5 solid grey;
+}
+
+.contactPage div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contactPage div a {
+  padding-left: 5px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  width: 300px;
+}
+
+.profile p {
+  padding-left: 10px;
+  border-bottom: .5px solid rgb(225, 226, 226);
+  padding-bottom: 20px;
+  font-size: 14px;
+}
+
+.profile p img {
+  margin-left: 25%;
+  border-radius: 70px;
+}
+
+.pic {
+  background-color: rgb(142, 185, 79);
+  margin:0;
+  padding: 20px 0px;
+  border-bottom: none;
+}
+
+.Nom, .city {
+  text-transform: capitalize;
+}
